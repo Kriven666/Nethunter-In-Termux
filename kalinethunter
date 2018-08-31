@@ -37,7 +37,7 @@ post_cleanup() {
 #####################
 
 setchroot() {
-	chroot=minimal
+	chroot=full
 }
 unknownarch() {
 	printf "$red"
